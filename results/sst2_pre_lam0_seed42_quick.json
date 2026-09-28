@@ -1,0 +1,109 @@
+{
+  "run_name": "sst2_pre_lam0_seed42_quick",
+  "task": "sst2",
+  "label_names": [
+    "negative",
+    "positive"
+  ],
+  "setting": {
+    "pretrained": true,
+    "transfer_layers": null,
+    "lambda": 0.0
+  },
+  "hyperparams": {
+    "lr": 6.25e-05,
+    "epochs": 1,
+    "effective_batch": 32,
+    "micro_batch": 8,
+    "grad_accum": 4,
+    "max_len": 64,
+    "warmup_frac": 0.002,
+    "warmup_steps": 1,
+    "total_steps": 4,
+    "weight_decay": 0.01,
+    "clf_dropout": 0.1,
+    "max_grad_norm": 1.0,
+    "seed": 42,
+    "fp16": true,
+    "grad_checkpoint": false,
+    "optimizer": "AdamW(0.9,0.999,1e-8)",
+    "schedule": "linear warmup + linear decay to 0"
+  },
+  "data": {
+    "n_train": 100,
+    "n_val": 100,
+    "subset": 100,
+    "val_subset": 100,
+    "n_train_truncated": 0,
+    "n_val_truncated": 0,
+    "tokenizer_mode": "ftfy+spacy (matches original GPT pre-processing)"
+  },
+  "metrics": {
+    "n": 100,
+    "accuracy": 0.59,
+    "precision_macro": 0.295,
+    "recall_macro": 0.5,
+    "f1_macro": 0.3710691823899371,
+    "precision_pos": 0.59,
+    "recall_pos": 1.0,
+    "f1_pos": 0.7421383647798742,
+    "confusion_matrix": [
+      [
+        0,
+        41
+      ],
+      [
+        0,
+        59
+      ]
+    ],
+    "val_loss": 0.7286998796463012
+  },
+  "curves": {
+    "step": [
+      2,
+      4
+    ],
+    "epoch": [
+      0.5,
+      1.0
+    ],
+    "lr": [
+      4.1666666666666665e-05,
+      0.0
+    ],
+    "train_loss": [
+      0.751228079199791,
+      0.7827840566635131
+    ],
+    "train_lm_loss": [
+      null,
+      null
+    ],
+    "train_acc": [
+      0.4375,
+      0.19444444444444445
+    ],
+    "val_loss": [
+      0.7323529577255249,
+      0.7286998796463012
+    ],
+    "val_acc": [
+      0.46,
+      0.59
+    ]
+  },
+  "compute": {
+    "train_time_s": 1.446713924407959,
+    "eval_time_s": 0.13961100578308105,
+    "peak_vram_mib": 2246.23486328125,
+    "peak_vram_reserved_mib": 2542.0,
+    "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+    "n_parameters": 116539394,
+    "torch": "2.6.0+cu124",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "transformers": "4.57.6"
+  },
+  "quick": true,
+  "oom_events": []
+}

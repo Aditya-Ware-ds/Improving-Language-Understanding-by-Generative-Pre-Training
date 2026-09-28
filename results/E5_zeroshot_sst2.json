@@ -1,0 +1,69 @@
+{
+  "run_name": "E5_zeroshot_sst2",
+  "task": "sst2",
+  "label_names": [
+    "negative",
+    "positive"
+  ],
+  "setting": {
+    "method": "append 'very'; compare P('positive') vs P('negative') from the LM head",
+    "token_ids": {
+      "very": 963,
+      "positive": 6353,
+      "negative": 9503
+    },
+    "fine_tuned": false
+  },
+  "metrics": {
+    "n": 872,
+    "accuracy": 0.7821100917431193,
+    "precision_macro": 0.7896989247311827,
+    "recall_macro": 0.7835522438326177,
+    "f1_macro": 0.7812077417173766,
+    "precision_pos": 0.8413978494623656,
+    "recall_pos": 0.704954954954955,
+    "f1_pos": 0.7671568627450981,
+    "confusion_matrix": [
+      [
+        369,
+        59
+      ],
+      [
+        131,
+        313
+      ]
+    ]
+  },
+  "diagnostic_median_threshold": {
+    "threshold_logodds": -0.30881214141845703,
+    "metrics": {
+      "n": 872,
+      "accuracy": 0.8119266055045872,
+      "precision_macro": 0.8119266055045871,
+      "recall_macro": 0.8120316578260504,
+      "f1_macro": 0.8119107744107744,
+      "precision_pos": 0.8211009174311926,
+      "recall_pos": 0.8063063063063063,
+      "f1_pos": 0.8136363636363636,
+      "confusion_matrix": [
+        [
+          350,
+          78
+        ],
+        [
+          86,
+          358
+        ]
+      ]
+    },
+    "note": "NOT the paper's method; threshold uses validation statistics (label-free) to remove class bias"
+  },
+  "frac_pred_positive": 0.42660550458715596,
+  "frac_true_positive": 0.5091743119266054,
+  "chance_majority_acc": 0.5091743119266054,
+  "compute": {
+    "time_s": 8.18752384185791,
+    "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU"
+  },
+  "quick": false
+}

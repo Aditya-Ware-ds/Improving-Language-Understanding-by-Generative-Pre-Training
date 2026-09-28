@@ -1,0 +1,152 @@
+[
+  {
+    "idx": 183,
+    "text": [
+      "the lower your expectations , the more you 'll enjoy it . "
+    ],
+    "label": 0,
+    "pred": 1,
+    "prob_pos": 0.9999535083770752,
+    "cues": "\u2013"
+  },
+  {
+    "idx": 791,
+    "text": [
+      "it 's somewhat clumsy and too lethargically paced -- but its story about a mysterious creature with psychic abilities offers a solid build-up , a terrific climax , and some nice chills along the way . "
+    ],
+    "label": 0,
+    "pred": 1,
+    "prob_pos": 0.9997757077217102,
+    "cues": "contrast, long"
+  },
+  {
+    "idx": 92,
+    "text": [
+      "you wo n't like roger , but you will quickly recognize him . "
+    ],
+    "label": 0,
+    "pred": 1,
+    "prob_pos": 0.9996607303619385,
+    "cues": "negation, contrast"
+  },
+  {
+    "idx": 118,
+    "text": [
+      "every nanosecond of the the new guy reminds you that you could be doing something else far more pleasurable . "
+    ],
+    "label": 0,
+    "pred": 1,
+    "prob_pos": 0.9989556074142456,
+    "cues": "\u2013"
+  },
+  {
+    "idx": 93,
+    "text": [
+      "if steven soderbergh 's ` solaris ' is a failure it is a glorious failure . "
+    ],
+    "label": 1,
+    "pred": 0,
+    "prob_pos": 0.0011335689341649413,
+    "cues": "\u2013"
+  },
+  {
+    "idx": 699,
+    "text": [
+      "... routine , harmless diversion and little else . "
+    ],
+    "label": 1,
+    "pred": 0,
+    "prob_pos": 0.001452227937988937,
+    "cues": "rhetorical/punct."
+  },
+  {
+    "idx": 271,
+    "text": [
+      "as unseemly as its title suggests . "
+    ],
+    "label": 1,
+    "pred": 0,
+    "prob_pos": 0.0014953383943066,
+    "cues": "\u2013"
+  },
+  {
+    "idx": 112,
+    "text": [
+      "hilariously inept and ridiculous . "
+    ],
+    "label": 1,
+    "pred": 0,
+    "prob_pos": 0.0016646332805976272,
+    "cues": "very short"
+  },
+  {
+    "idx": 115,
+    "text": [
+      "sam mendes has become valedictorian at the school for soft landings and easy ways out . "
+    ],
+    "label": 0,
+    "pred": 1,
+    "prob_pos": 0.9978635907173157,
+    "cues": "\u2013"
+  },
+  {
+    "idx": 626,
+    "text": [
+      "this flick is about as cool and crowd-pleasing as a documentary can get . "
+    ],
+    "label": 1,
+    "pred": 0,
+    "prob_pos": 0.0022738955449312925,
+    "cues": "\u2013"
+  },
+  {
+    "idx": 760,
+    "text": [
+      "writer/director joe carnahan 's grimy crime drama is a manual of precinct cliches , but it moves fast enough to cover its clunky dialogue and lapses in logic . "
+    ],
+    "label": 1,
+    "pred": 0,
+    "prob_pos": 0.0029694451950490475,
+    "cues": "contrast"
+  },
+  {
+    "idx": 358,
+    "text": [
+      "( d ) oes n't bother being as cloying or preachy as equivalent evangelical christian movies -- maybe the filmmakers know that the likely audience will already be among the faithful . "
+    ],
+    "label": 1,
+    "pred": 0,
+    "prob_pos": 0.0030337367206811905,
+    "cues": "negation"
+  },
+  {
+    "idx": 519,
+    "text": [
+      "moretti 's compelling anatomy of grief and the difficult process of adapting to loss . "
+    ],
+    "label": 0,
+    "pred": 1,
+    "prob_pos": 0.9960851669311523,
+    "cues": "\u2013"
+  },
+  {
+    "idx": 736,
+    "text": [
+      "american chai encourages rueful laughter at stereotypes only an indian-american would recognize . "
+    ],
+    "label": 0,
+    "pred": 1,
+    "prob_pos": 0.9950659275054932,
+    "cues": "\u2013"
+  },
+  {
+    "idx": 282,
+    "text": [
+      "while there 's something intrinsically funny about sir anthony hopkins saying ` get in the car , bitch , ' this jerry bruckheimer production has little else to offer "
+    ],
+    "label": 1,
+    "pred": 0,
+    "prob_pos": 0.005479908548295498,
+    "cues": "contrast"
+  }
+]

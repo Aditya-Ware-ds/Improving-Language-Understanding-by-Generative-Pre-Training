@@ -1,0 +1,43 @@
+{
+  "run_name": "E4_tfidf_lr_sst2",
+  "task": "sst2",
+  "label_names": [
+    "negative",
+    "positive"
+  ],
+  "setting": {
+    "model": "TF-IDF (word 1-2g + char 2-5g) + LogisticRegression",
+    "best_C": 16,
+    "cv_accuracy": 0.9305854643920162,
+    "n_features": 136116
+  },
+  "data": {
+    "n_train": 67349,
+    "n_val": 872
+  },
+  "metrics": {
+    "n": 872,
+    "accuracy": 0.8211009174311926,
+    "precision_macro": 0.8240180625372753,
+    "recall_macro": 0.8201987033762734,
+    "f1_macro": 0.8203600405679513,
+    "precision_pos": 0.7975206611570248,
+    "recall_pos": 0.8693693693693694,
+    "f1_pos": 0.8318965517241379,
+    "confusion_matrix": [
+      [
+        330,
+        98
+      ],
+      [
+        58,
+        386
+      ]
+    ]
+  },
+  "compute": {
+    "train_time_s": 47.15213179588318,
+    "device": "cpu"
+  },
+  "quick": false
+}

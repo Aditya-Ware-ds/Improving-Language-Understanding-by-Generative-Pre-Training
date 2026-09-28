@@ -1,0 +1,43 @@
+{
+  "hf_model": "C:\\Users\\adity\\Desktop\\manit_assignmentes\\soft_computing\\assignments\\gpt1-assignment\\weights\\openai-gpt",
+  "cases": [
+    {
+      "text": "the movie was surprisingly good , and the acting was superb .",
+      "n_tokens": 12,
+      "max_abs_diff": 0.011113271117210388
+    },
+    {
+      "text": "a dull , lifeless and utterly forgettable film .",
+      "n_tokens": 9,
+      "max_abs_diff": 0.011713504791259766
+    },
+    {
+      "text": "random ids, batch 2 x 512",
+      "n_tokens": 512,
+      "max_abs_diff": 0.20046424865722656
+    },
+    {
+      "text": "LM-head logits (tied W_e)",
+      "n_tokens": 12,
+      "max_abs_diff": 0.046875953674316406
+    }
+  ],
+  "max_abs_diff": 0.20046424865722656,
+  "tolerance": 0.0001,
+  "passed": false,
+  "n_parameters": 116534784,
+  "n_parameters_hf": 116534784,
+  "config": {
+    "vocab_size": 40478,
+    "n_positions": 512,
+    "n_embd": 768,
+    "n_layer": 12,
+    "n_head": 12,
+    "n_inner": 3072,
+    "embd_pdrop": 0.1,
+    "attn_pdrop": 0.1,
+    "resid_pdrop": 0.1,
+    "layer_norm_eps": 1e-05,
+    "init_std": 0.02
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "run_name": "E4_tfidf_lr_mrpc",
+  "task": "mrpc",
+  "label_names": [
+    "not_equivalent",
+    "equivalent"
+  ],
+  "setting": {
+    "model": "TF-IDF (word 1-2g + char 2-5g) + LogisticRegression",
+    "best_C": 4,
+    "cv_accuracy": 0.7497273345699618,
+    "n_features": 149106
+  },
+  "data": {
+    "n_train": 3668,
+    "n_val": 408
+  },
+  "metrics": {
+    "n": 408,
+    "accuracy": 0.75,
+    "precision_macro": 0.7097345132743362,
+    "recall_macro": 0.6942568975577228,
+    "f1_macro": 0.7004060241310796,
+    "precision_pos": 0.8,
+    "recall_pos": 0.8458781362007168,
+    "f1_pos": 0.8222996515679443,
+    "confusion_matrix": [
+      [
+        70,
+        59
+      ],
+      [
+        43,
+        236
+      ]
+    ]
+  },
+  "compute": {
+    "train_time_s": 18.608521699905396,
+    "device": "cpu"
+  },
+  "quick": false
+}
