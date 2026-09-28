@@ -1,6 +1,6 @@
 # GPT-1 assignment: study, from-scratch re-implementation and fine-tuning
 
-Aditya Ware, Roll No. 26215011118 (Full Time), M.Tech-AI, MANIT.
+
 Base paper: Radford, Narasimhan, Salimans & Sutskever (2018), *Improving Language Understanding by Generative
 Pre-Training* (`paper\language_understanding_paper.pdf`; verified notes in `notes\paper_notes.md`).
 
